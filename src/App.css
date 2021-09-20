@@ -1,25 +1,24 @@
-.App {
-  text-align: center;
+body {
+  background-color: #6dd9c7;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hebe-logo {
+  width: 35vw;
+  pointer-events: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -27,12 +26,63 @@
 .App-link {
   color: #61dafb;
 }
+.coin-front {
+  height: 20vw;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transform-style: preserve-3d;
+  width: 20vw;
+
+  background-color: #834166;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+.coin-back {
+  height: 20vw;
+
+  width: 20vw;
+  transform-style: preserve-3d;
+
+  background-color: #d84571;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+.motylek {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nagroda {
+  max-height: 80%;
+  max-width: 80%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.top-decorator {
+  position: absolute;
+  width: 100%;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  transition: transform 0.8s;
+
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.hop {
+  transform: rotateY(180deg);
+  transition: transform 0.8s;
+  backface-visibility: hidden;
+}
+.hip {
+  transform: rotateY(0deg);
+  transition: transform 0.8s;
+  backface-visibility: hidden;
 }
