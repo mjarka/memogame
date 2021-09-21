@@ -15,21 +15,23 @@ export default function CardsFlip() {
   const [found, setFound] = useState([]);
   const [deck, setDeck] = useState([]);
   const increasePoints = useStore((state) => state.increasePoints);
-
+  const points = useStore((state) => state.points);
+  const [currentCard, setCurrentCard] = useState();
   // shuffle array and add it to new const
-
+  console.log(revealed);
   useEffect(() => {
     const firstDeck = cards.cards;
     shuffleArray(firstDeck);
     setDeck(firstDeck);
   }, []);
+
   useEffect(() => {
-    revealed.length > 2 && setRevealed([revealed.at(-1)]);
-    revealed.length === 2 &&
+    revealed.length > 2 &&
       revealed[0][1] === revealed[1][1] &&
       setFound((oldArray) => [...oldArray, revealed[0], revealed[1]]);
+    revealed.length > 2 && setRevealed([currentCard]);
   }, [revealed]);
-  console.log(found);
+  console.log("i found", found);
 
   return (
     <Grid container>
@@ -37,6 +39,7 @@ export default function CardsFlip() {
         return (
           <Grid
             onClick={() => {
+              setCurrentCard(card);
               increasePoints();
               !revealed.includes(card) &&
                 setRevealed((oldArray) => [...oldArray, card]);

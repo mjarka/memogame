@@ -1,7 +1,9 @@
 body {
   background-color: #6dd9c7;
 }
-
+.App {
+  min-height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

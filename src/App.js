@@ -11,8 +11,12 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
 import CardsFlip from "./CardsFlip";
 import Points from "./Points";
+import Prizes from "./Prizes";
+import PlayButton from "./PlayButton";
+import useStore from "./store";
 
 function App() {
+  const started = useStore((state) => state.started);
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -25,8 +29,17 @@ function App() {
             <img src={logo} className="App-logo" alt="logo" />
           </header>
         </Box>
-        <Points />
-        <CardsFlip />
+
+        {started ? (
+          <>
+            <Points />
+            <CardsFlip />
+          </>
+        ) : (
+          <>
+            <Prizes /> <PlayButton />
+          </>
+        )}
       </div>
     </ThemeProvider>
   );
