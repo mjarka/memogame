@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae956943.chunk.css",
-    "main.js": "/static/js/main.ccb9b120.chunk.js",
-    "main.js.map": "/static/js/main.ccb9b120.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1302dfb4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1302dfb4.js.map",
-    "static/js/2.438a72c9.chunk.js": "/static/js/2.438a72c9.chunk.js",
-    "static/js/2.438a72c9.chunk.js.map": "/static/js/2.438a72c9.chunk.js.map",
-    "static/js/3.a814bff6.chunk.js": "/static/js/3.a814bff6.chunk.js",
-    "static/js/3.a814bff6.chunk.js.map": "/static/js/3.a814bff6.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ae956943.chunk.css.map": "/static/css/main.ae956943.chunk.css.map",
-    "static/js/2.438a72c9.chunk.js.LICENSE.txt": "/static/js/2.438a72c9.chunk.js.LICENSE.txt",
-    "static/media/hebeLogo.fac89304.png": "/static/media/hebeLogo.fac89304.png",
-    "static/media/logo.775c198d.svg": "/static/media/logo.775c198d.svg",
-    "static/media/motylek.cf629228.png": "/static/media/motylek.cf629228.png",
-    "static/media/top.8298e6a6.png": "/static/media/top.8298e6a6.png"
+    "main.css": "/memogame/static/css/main.6ccd8426.chunk.css",
+    "main.js": "/memogame/static/js/main.ca9ff9ac.chunk.js",
+    "main.js.map": "/memogame/static/js/main.ca9ff9ac.chunk.js.map",
+    "runtime-main.js": "/memogame/static/js/runtime-main.fbe6cfe8.js",
+    "runtime-main.js.map": "/memogame/static/js/runtime-main.fbe6cfe8.js.map",
+    "static/js/2.1168bc2d.chunk.js": "/memogame/static/js/2.1168bc2d.chunk.js",
+    "static/js/2.1168bc2d.chunk.js.map": "/memogame/static/js/2.1168bc2d.chunk.js.map",
+    "static/js/3.10b497cc.chunk.js": "/memogame/static/js/3.10b497cc.chunk.js",
+    "static/js/3.10b497cc.chunk.js.map": "/memogame/static/js/3.10b497cc.chunk.js.map",
+    "index.html": "/memogame/index.html",
+    "static/css/main.6ccd8426.chunk.css.map": "/memogame/static/css/main.6ccd8426.chunk.css.map",
+    "static/js/2.1168bc2d.chunk.js.LICENSE.txt": "/memogame/static/js/2.1168bc2d.chunk.js.LICENSE.txt",
+    "static/media/groupshot.d1c8859b.png": "/memogame/static/media/groupshot.d1c8859b.png",
+    "static/media/hebeLogo.fac89304.png": "/memogame/static/media/hebeLogo.fac89304.png",
+    "static/media/logo.775c198d.svg": "/memogame/static/media/logo.775c198d.svg",
+    "static/media/motylek.cf629228.png": "/memogame/static/media/motylek.cf629228.png",
+    "static/media/top.8298e6a6.png": "/memogame/static/media/top.8298e6a6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1302dfb4.js",
-    "static/js/2.438a72c9.chunk.js",
-    "static/css/main.ae956943.chunk.css",
-    "static/js/main.ccb9b120.chunk.js"
+    "static/js/runtime-main.fbe6cfe8.js",
+    "static/js/2.1168bc2d.chunk.js",
+    "static/css/main.6ccd8426.chunk.css",
+    "static/js/main.ca9ff9ac.chunk.js"
   ]
 }
