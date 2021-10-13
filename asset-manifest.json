@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memogame/static/css/main.6fe0af14.chunk.css",
+    "main.css": "/memogame/static/css/main.26cfceba.chunk.css",
     "main.js": "/memogame/static/js/main.4085a696.chunk.js",
     "main.js.map": "/memogame/static/js/main.4085a696.chunk.js.map",
     "runtime-main.js": "/memogame/static/js/runtime-main.12e4d29c.js",
@@ -10,7 +10,7 @@
     "static/js/3.1b3f79c8.chunk.js": "/memogame/static/js/3.1b3f79c8.chunk.js",
     "static/js/3.1b3f79c8.chunk.js.map": "/memogame/static/js/3.1b3f79c8.chunk.js.map",
     "index.html": "/memogame/index.html",
-    "static/css/main.6fe0af14.chunk.css.map": "/memogame/static/css/main.6fe0af14.chunk.css.map",
+    "static/css/main.26cfceba.chunk.css.map": "/memogame/static/css/main.26cfceba.chunk.css.map",
     "static/js/2.fe0a614b.chunk.js.LICENSE.txt": "/memogame/static/js/2.fe0a614b.chunk.js.LICENSE.txt",
     "static/media/groupshot.d1c8859b.png": "/memogame/static/media/groupshot.d1c8859b.png",
     "static/media/hebeLogo.41c30f7e.png": "/memogame/static/media/hebeLogo.41c30f7e.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.12e4d29c.js",
     "static/js/2.fe0a614b.chunk.js",
-    "static/css/main.6fe0af14.chunk.css",
+    "static/css/main.26cfceba.chunk.css",
     "static/js/main.4085a696.chunk.js"
   ]
 }
