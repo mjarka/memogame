@@ -13,33 +13,24 @@ import CardsFlip from "./CardsFlip";
 import Points from "./Points";
 import Prizes from "./Prizes";
 import PlayButton from "./PlayButton";
+import Transition from "./Transition";
 import useStore from "./store";
 
 function App() {
   const started = useStore((state) => state.started);
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <div className="App">
         <img src={top} className="top-decorator" alt="logo" />
-
         <Box pt={4}>
           <header className="App-header">
             <img src={hebelogo} className="hebe-logo" alt="logo" />
             <img src={logo} className="App-logo" alt="logo" />
           </header>
         </Box>
-
-        {started ? (
-          <>
-            <Points />
-            <CardsFlip />
-          </>
-        ) : (
-          <>
-            <Prizes /> <PlayButton />
-          </>
-        )}
+        <Transition />
       </div>
     </ThemeProvider>
   );

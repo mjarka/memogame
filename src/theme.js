@@ -7,7 +7,7 @@ const theme = createTheme({
       main: "#3f51b5",
     },
     secondary: {
-      main: "#f50057",
+      main: "#ec008c",
     },
     text: {
       primary: "rgba(255,255,255,0.87)",
@@ -16,6 +16,9 @@ const theme = createTheme({
     background: {
       default: "#6dd8c7",
     },
+  },
+  shape: {
+    borderRadius: 50,
   },
 });
 export default theme;

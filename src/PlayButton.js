@@ -14,6 +14,7 @@ export default function PlayButton() {
       right="0"
     >
       <Button
+        color="secondary"
         variant="contained"
         onClick={() => useStore.setState({ started: true })}
       >
